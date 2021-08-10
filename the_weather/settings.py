@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'wwhgms5#76_fg#g!e0cpi=8^yw+kzv_jtuo23^#9$br8$a%n6e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://weather-app8.herokuapp.com/','127.0.0.1/']
 
 
 # Application definition
